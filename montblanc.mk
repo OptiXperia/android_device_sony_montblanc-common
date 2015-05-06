@@ -140,9 +140,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.force_multiuser=true
 
-# Garbage Collector type
-PRODUCT_TAGS += dalvik.gc.type-precise
-
-# OpenDelta
-#PRODUCT_PROPERTY_OVERRIDES += ro.delta.version=VERSION
-#PRODUCT_PACKAGES += OpenDelta
